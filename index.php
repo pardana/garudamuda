@@ -89,7 +89,7 @@
                                         <a class="page-scroll" href="#about"><font color='black'>ABOUT</font></a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="page-scroll" href="#portfolio"><font color='black'>PORTFOLIO</font></a>
+                                        <a class="page-scroll" href="#portfolio"><font color='black'>PORTOFOLIO</font></a>
                                     </li>
                                     <li class="nav-item">
                                         <a class="page-scroll" href="#pricing"><font color='black'>PRICING</font></a>
