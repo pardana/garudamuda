@@ -71,7 +71,7 @@
                     <div class="col-lg-12">
                         <nav class="navbar navbar-expand-lg">
                             <a class="navbar-brand" href="#">
-                                <img src="assets/images/logo.png" alt="Logo">
+                                <img src="assets/images/logo_garudamuda.png" alt="Logo" style="width:70%">
                             </a>
 
                             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarEight" aria-controls="navbarEight" aria-expanded="false" aria-label="Toggle navigation">
@@ -83,22 +83,25 @@
                             <div class="collapse navbar-collapse sub-menu-bar" id="navbarEight">
                                 <ul class="navbar-nav ml-auto">
                                     <li class="nav-item active">
-                                        <a class="page-scroll" href="#home"><font color='black'>HOME</font></a>
+                                        <a class="page-scroll" href="#beranda"><font color='black'>BERANDA</font></a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="page-scroll" href="#about"><font color='black'>ABOUT</font></a>
+                                        <a class="page-scroll" href="#tentang"><font color='black'>TENTANG</font></a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="page-scroll" href="#portfolio"><font color='black'>PORTOFOLIO</font></a>
+                                        <a class="page-scroll" href="#pricing"><font color='black'>STRUKTUR</font></a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="page-scroll" href="#pricing"><font color='black'>PRICING</font></a>
+                                        <a class="page-scroll" href="#testimonial"><font color='black'>KABINET</font></a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="page-scroll" href="#testimonial"><font color='black'>CLIENTS</font></a>
+                                        <a class="page-scroll" href="#contact"><font color='black'>KEGIATAN</font></a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="page-scroll" href="#contact"><font color='black'>CONTACT</font></a>
+                                        <a class="page-scroll" href="#contact"><font color='black'>DEVELOPER</font></a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="page-scroll" href="#contact"><font color='black'>SARAN</font></a>
                                     </li>
                                     <li class="nav-item">
                                         <a class="page-scroll" href="./index2.php"><font color='black'>LOGIN</font></a>
@@ -115,7 +118,7 @@
             </div> <!-- container -->
         </div> <!-- navbar area -->
         
-        <div id="home" class="slider-area">
+        <div id="beranda" class="slider-area">
             <div class="bd-example">
                 <div id="carouselOne" class="carousel slide" data-ride="carousel">
                     <ol class="carousel-indicators">
@@ -125,7 +128,7 @@
                     </ol>
 
                     <div class="carousel-inner">
-                        <div class="carousel-item bg_cover active" style="background-image: url(assets/images/slider-1.jpg)">
+                        <div class="carousel-item bg_cover active" style="background-image: url(assets/images/slider-1.png)">
                             <div class="carousel-caption">
                                 <div class="container">
                                     <div class="row justify-content-center">
@@ -141,7 +144,7 @@
                             </div> <!-- carousel caption -->
                         </div> <!-- carousel-item -->
 
-                        <div class="carousel-item bg_cover" style="background-image: url(assets/images/slider-2.jpg)">
+                        <div class="carousel-item bg_cover" style="background-image: url(assets/images/slider-2.png)">
                             <div class="carousel-caption">
                                 <div class="container">
                                     <div class="row justify-content-center">
@@ -157,7 +160,7 @@
                             </div> <!-- carousel caption -->
                         </div> <!-- carousel-item -->
 
-                        <div class="carousel-item bg_cover" style="background-image: url(assets/images/slider-3.jpg)">
+                        <div class="carousel-item bg_cover" style="background-image: url(assets/images/slider-1.png)">
                             <div class="carousel-caption">
                                 <div class="container">
                                     <div class="row justify-content-center">
@@ -222,16 +225,16 @@
     
     <!--====== ABOUT PART START ======-->
 
-    <section id="about" class="about-area">
+    <section id="tentang" class="about-area">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-xl-6 col-lg-8">
                     <div class="about-image text-center wow fadeInUp" data-wow-duration="1.5s" data-wow-offset="100">
-                        <img src="assets/images/services.png" alt="services">
+                        <img src="assets/images/logo_garudamuda.png" alt="services" style="width:70%">
                     </div>
                     <div class="section-title text-center mt-30 pb-40">
-                        <h4 class="title wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="0.6s">The future of designing starts here</h4>
-                        <p class="text wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="1s">An open platform for presentations and content collaboration. Sign up to get early access.</p>
+                        <h5 class="title wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="0.6s">KARANG TARUNA <br/>UNIT RW08</h5>
+                        <p class="text wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="1s">Kami Lebih Dikenal Dengan Istilah "GARUDA MUDA"</p>
                     </div> <!-- section title -->
                 </div>
             </div> <!-- row -->
@@ -243,26 +246,30 @@
                             <img src="assets/images/icon-1.png" alt="Icon">
                         </div>
                         <div class="about-content media-body">
-                            <h4 class="about-title">Powerful templates</h4>
-                            <p class="text">Poorly designed presentations are a thing of the past. Create beautiful and high-quality content that is aligned.</p>
+                            <h4 class="about-title">VISI</h4>
+                            <p class="text">1. Komunikasi</p>
+                            <p class="text">2. Transparansi</p>
+                            <p class="text">3. Terintegrasi</p>
                         </div>
                     </div> <!-- single about -->
                 </div>
                 <div class="col-lg-6">
                     <div class="single-about d-sm-flex mt-30 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="1.4s">
                         <div class="about-icon">
-                            <img src="assets/images/icon-2.png" alt="Icon">
+                            <img src="assets/images/icon-1.png" alt="Icon">
                         </div>
                         <div class="about-content media-body">
-                            <h4 class="about-title">Designed for everyone</h4>
-                            <p class="text">Poorly designed presentations are a thing of the past. Create beautiful and high-quality content that is aligned.</p>
+                            <h4 class="about-title">MISI</h4>
+                            <p class="text">1. Mengedepankan komunikasi yang baik, supaya tidak salah paham</p>
+                            <p class="text">2. Transparan sangat jelas untuk antar divisi/seksi agar bisa berjalan dengan baik</p>
+                            <p class="text">3. Saling terintegrasi satu sama lain, untuk menjadi Karang Taruna sebagai Team yang solid</p>
                         </div>
                     </div> <!-- single about -->
                 </div>
                 <div class="col-lg-6">
                     <div class="single-about d-sm-flex mt-30 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="1.6s">
                         <div class="about-icon">
-                            <img src="assets/images/icon-3.png" alt="Icon">
+                            <img src="assets/images/icon-1.png" alt="Icon">
                         </div>
                         <div class="about-content media-body">
                             <h4 class="about-title">Work anywhere</h4>
@@ -273,7 +280,7 @@
                 <div class="col-lg-6">
                     <div class="single-about d-sm-flex mt-30 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="1.8s">
                         <div class="about-icon">
-                            <img src="assets/images/icon-4.png" alt="Icon">
+                            <img src="assets/images/icon-1.png" alt="Icon">
                         </div>
                         <div class="about-content media-body">
                             <h4 class="about-title">Updated in real time</h4>
